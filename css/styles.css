@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Happy Monkey', cursive;
     text-align: center;
-    background: #a2d2ff;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
     color: #ffffff;
    
 }
@@ -41,13 +41,58 @@ p {
     align-items: center;
 }
 
-/*
-Challenge:
-1. Create a "gift-section" <div> that will wrap
-   all the elements for the first gift.
-2. Add the <h2>, <h3>, and <img> elements, and
-   give all of them their own classes.
-3. Style the elements according to the design.
+.gift-section {
+    margin-top: 50px;
+}
 
-PS: the image should be 400px wide.
-*/
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("../images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-1:hover {
+    background-image: url("../images/happy.gif");
+}
+
+#gift-img-2:hover {
+    background-image: url("../images/hot.gif");
+}
+
+#gift-img-3:hover {
+    background-image: url("../images/genius.gif");
+}
+
+#gift-img-4:hover {
+    background-image: url("../images/badass.gif");
+}
+
+#gift-img-5 {
+    height: 200px;
+}
+
+#gift-img-5:hover {
+    background-image: url("../images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
